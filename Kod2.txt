@@ -195,12 +195,13 @@
     <iframe src="https://www.youtube.com/embed/fPntuMTnD8g?si=XDd4-m571njJzjPt" allowfullscreen></iframe>
   </div>
 
-  <div class="local-video-container">
-    <video controls>
-      <source src="Video.mp4" type="video/mp4">
-      Vaš preglednik ne podržava video tag.
-    </video>
+   <div class="audio-container">
+    <audio controls>
+      <source src="Florence the Machine - Call me Cruella (From CruellaOfficial Lyric Video).mp3" type="audio/mpeg">
+      Vaš preglednik ne podržava audio element.
+    </audio>
   </div>
+
 
   <div class="audio-container">
     <audio controls>
@@ -211,3 +212,4 @@
 
 </body>
 </html>
+
