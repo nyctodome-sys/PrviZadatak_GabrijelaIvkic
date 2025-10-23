@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Gabrijela Ivkić - Stranica 2</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to right, #8B0000 50%, black 50%);
+      font-family: 'Playfair Display', serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .title-container {
+      display: flex;
+      width: 100%;
+      max-width: 1000px;
+      font-size: 90px;
+      margin-top: 40px;
+      user-select: none;
+    }
+
+    .title-part {
+      width: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: 1000;
+    }
+
+    .title-left {
+      color: black;
+    }
+
+    .title-right {
+      color: #8B0000;
+    }
+
+    .content {
+      display: flex;
+      width: 100%;
+      max-width: 1300px;
+      margin-top: 60px;
+      justify-content: space-between;
+      align-items: flex-start;
+      padding: 0 40px;
+      box-sizing: border-box;
+    }
+
+    .left-column {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+    }
+
+    .text-box {
+      background-color: transparent;
+      color: black;
+      padding: 25px;
+      width: 440px;
+      border: 6px solid black;
+      font-size: 22px;
+      font-weight: bold;
+      box-sizing: border-box;
+    }
+
+    .text-box h3 {
+      margin-top: 0;
+      margin-bottom: 15px;
+      font-size: 24px;
+      font-weight: 900;
+    }
+
+    ul, ol {
+      margin: 0;
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 6px;
+    }
+
+    .right-column {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      margin-right: 20px;
+    }
+
+    .right-column img {
+      width: 300px;
+      border: 4px solid #FBD5AB;
+      object-fit: cover;
+    }
+
+    .video-container {
+      width: 100%;
+      margin-top: 60px;
+      display: flex;
+      justify-content: center;
+      padding: 0 20px;
+      box-sizing: border-box;
+    }
+
+    .video-container iframe {
+      width: 100%;
+      max-width: 1000px;
+      height: 562px;
+      border: none;
+    }
+
+    .local-video-container {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      padding: 40px 20px 20px 20px;
+      box-sizing: border-box;
+    }
+
+    .local-video-container video {
+      width: 100%;
+      max-width: 1000px;
+      height: auto;
+      border: 4px solid #FBD5AB;
+    }
+
+    .audio-container {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    .audio-container audio {
+      width: 100%;
+      max-width: 500px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="title-container">
+    <span class="title-part title-left">Cruella</span>
+    <span class="title-part title-right">de Vil</span>
+  </div>
+
+  <div class="content">
+    <div class="left-column">
+      <div class="text-box">
+        <h3>Cruella je:</h3>
+        <ul>
+          <li>Drska</li>
+          <li>Zločesta</li>
+          <li>Pametna</li>
+          <li>Neustrašiva</li>
+          <li>Neobična</li>
+        </ul>
+      </div>
+
+      <div class="text-box">
+        <h3>Imena glavnih 15 dalmatinaca:</h3>
+        <ol>
+          <li>Lucky</li>
+          <li>Patch</li>
+          <li>Rolly</li>
+          <li>Penny</li>
+          <li>Freckles</li>
+          <li>Pepper</li>
+          <li>Fidget</li>
+          <li>Jewel</li>
+          <li>Dipstick</li>
+          <li>Two-Tone</li>
+          <li>Whizzer</li>
+          <li>Little Dipper</li>
+          <li>Domino</li>
+          <li>Oddball</li>
+          <li>Cadpig</li>
+        </ol>
+      </div>
+    </div>
+
+    <div class="right-column">
+      <img src="1.webp" alt="Cruella 1">
+      <img src="2.webp" alt="Cruella 2">
+      <img src="3.jpg" alt="Cruella 3">
+      <img src="4.jpeg" alt="Cruella 4">
+    </div>
+  </div>
+
+  <div class="video-container">
+    <iframe src="https://www.youtube.com/embed/fPntuMTnD8g?si=XDd4-m571njJzjPt" allowfullscreen></iframe>
+  </div>
+
+  <div class="local-video-container">
+    <video controls>
+      <source src="Video.mp4" type="video/mp4">
+      Vaš preglednik ne podržava video tag.
+    </video>
+  </div>
+
+  <div class="audio-container">
+    <audio controls>
+      <source src="Zvuk.mp3" type="audio/mpeg">
+      Vaš preglednik ne podržava audio element.
+    </audio>
+  </div>
+
+</body>
+</html>
